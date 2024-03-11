@@ -1,0 +1,11 @@
+[Unit]
+Description=Bot configurer and starter
+After=network.target
+
+[Service]
+Type=idle
+ExecStart=/home/slamper/start_bot.sh
+Restart=on-failure
+
+[Install]
+WantedBy=default.target
