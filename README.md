@@ -17,7 +17,7 @@ Yandex dependent code placed in:
 3. retrieve_iam_token() on [YandexTokenUtil.py](https://github.com/SlamperBOOM/YandexGPT-Bot/blob/master/YandexGPTBot/YandexTokenUtil.py#L10) when retrieve IAM-token that used in all other requests inside Yandex Cloud
 4. Params for model in [ModelParamsManager.py](https://github.com/SlamperBOOM/YandexGPT-Bot/blob/master/YandexGPTBot/ModelParamsManager.py). All functions related to change parameters
 
-If you want to use this repo in your own bot, cha
+If you want to use this repo in your own bot, change this code to yours
 ## Set up telegram bot on remote server
 To run this bot at system startup on your server, do the following steps:
 1. Copy files from [YandexGPTBot](YandexGPTBot) to some folder on your server (for example, /home/\*username\*/)
